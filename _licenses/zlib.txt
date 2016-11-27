@@ -5,7 +5,7 @@ source: https://opensource.org/licenses/Zlib
 
 description: A short permissive license, compatible with GPL. Requires altered source versions to be documented as such.
 
-how: Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.
+how: Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace {{ now.year }} with the current year and {{ full_name }} with the name (or names) of the copyright holders.
 
 permissions:
   - commercial-use
@@ -24,7 +24,7 @@ limitations:
 
 zlib License
 
-(C) [year] [fullname]
+(C) {{ now.year }} {{ full_name }}
 
 This software is provided 'as-is', without any express or implied
 warranty.  In no event will the authors be held liable for any damages

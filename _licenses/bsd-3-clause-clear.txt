@@ -5,7 +5,7 @@ source: https://spdx.org/licenses/BSD-3-Clause-Clear.html
 
 description: A variant of the <a href="/licenses/bsd-3-clause/">BSD 3-Clause License</a> that explicitly does not grant any patent rights.
 
-how: Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders. Replace [project] with the project organization, if any, that sponsors this work.
+how: Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace {{ now.year }} with the current year and {{ full_name }} with the name (or names) of the copyright holders. Replace [project] with the project organization, if any, that sponsors this work.
 
 permissions:
   - commercial-use
@@ -24,7 +24,7 @@ limitations:
 
 The Clear BSD License
 
-Copyright (c) [year], [fullname]
+Copyright (c) {{ now.year }}, {{ full_name }}
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
